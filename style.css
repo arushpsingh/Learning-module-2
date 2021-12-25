@@ -1,0 +1,77 @@
+.container {
+  font-family: sans-serif;
+  width: 1200px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: brown;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-left: 10px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+h5 {
+  text-align: center;
+}
+
+aside {
+  border: 2px solid aqua;
+  background-color: aliceblue;
+}
+
+.related {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.related-posts {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 20px;
+}
+.related-author {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-style: italic;
+}
+.related-link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+li a:hover {
+  color: brown;
+}
